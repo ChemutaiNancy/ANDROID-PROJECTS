@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Long</string>
+    <string name="book">Book</string>
+
+    <array name="Route">
+        <item>Mombasa to Nairobi</item>
+        <item>Nairobi to Mombasa</item>
+        <item>Nairobi to Kisumu</item>
+        <item>Kisumu to Nairobi</item>
+        <item>Kampala to Nairobi</item>
+        <item>Nairobi to Kampala</item>
+        <item>Nairobi to Eldoret</item>
+        <item>Eldoret to Nairobi</item>
+        <item>Nairobi to Busia</item>
+        <item>Busia to Nairobi</item>
+        <item>Nairobi to Garissa</item>
+        <item>Garissa to Nairobi</item>
+        <item>Nairobi to Kitale</item>
+        <item>Kitale to Nairobi</item>
+        <item>Nairobi to Moshi</item>
+        <item>Moshi to Nairobi</item>
+        <item>Nairobi to Lodwar</item>
+        <item>Lodwar to Nairobi</item>
+        <item>Nairobi to Kisii</item>
+        <item>Kisii to Nairobi</item>
+    </array>
+
+    <array name="Bus_Company">
+        <item>MASH</item>
+        <item>EASYCOACH</item>
+        <item>COAST BUS</item>
+        <item>DREAMLINER</item>
+        <item>MBUKINYA</item>
+        <item>TRANSLINE CLASSIC</item>
+        <item>HOMEBOYZ</item>
+        <item>NORTHRIFT</item>
+        <item>ALMABUS</item>
+        <item>KAWERE</item>
+        <item>ELDORET EXPRESS</item>
+    </array>
+
+    <array name="Seat_Number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </array>
+</resources>

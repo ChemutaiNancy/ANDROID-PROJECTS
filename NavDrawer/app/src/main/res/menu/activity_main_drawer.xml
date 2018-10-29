@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_smoking_rooms_black_24dp"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="Reports" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_call_us"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Call us" />
+            <item
+                android:id="@+id/nav_email_us"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Email us" />
+        </menu>
+    </item>
+
+</menu>

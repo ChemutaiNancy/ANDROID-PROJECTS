@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnLogout"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        app:fb_text="LOGOUT"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#0a9df9"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+</LinearLayout>

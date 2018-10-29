@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".BookingActivity">
+
+    <LinearLayout
+        android:id="@+id/actionBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:entries="@array/Route" />
+
+        <Spinner
+            android:id="@+id/spinnerBusCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:entries="@array/Bus_Company" />
+
+        <Spinner
+            android:id="@+id/spinnerSeatNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:entries="@array/Seat_Number" />
+
+        <TextView
+            android:id="@+id/txtTravelDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:inputType="date"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txtPickPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Enter your pick up point"
+            android:text="TextView" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#003db8"
+            fancy:fb_focusColor="#234ad8"
+            fancy:fb_fontIconResource="&#xf04b;"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="@string/book"
+            fancy:fb_textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

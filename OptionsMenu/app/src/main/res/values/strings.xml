@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OptionsMenu</string>
+    <string name="menu_action_setting">Setting</string>
+    <string name="menu_action_about_us">About us</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "95922828531",
+    "firebase_url": "https://food-5945b.firebaseio.com",
+    "project_id": "food-5945b",
+    "storage_bucket": "food-5945b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95922828531:android:6f17a9c6293b0ee3",
+        "android_client_info": {
+          "package_name": "com.chemutai.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95922828531-uflml8tgljiveg61l3k4830tou167vqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAICR039dSxrnDVi2Mrb1ZdoJibOqW_fUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
