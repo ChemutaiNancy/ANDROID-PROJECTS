@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Matatu</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="route">
+        <item>Nairobi-Mombasa</item>
+        <item>Nairobi-Kisumu</item>
+        <item>Nairobi-Garissa</item>
+        <item>Nairobi-Bungoma</item>
+        <item>Nairobi-Kitale</item>
+        <item>Nairobi-Eldoret</item>
+        <item>Nairobi-Lodwar</item>
+        <item>Nairobi-Homabay</item>
+        <item>Nairobi-Meru</item>
+        <item>Nairobi-Nyeri</item>
+    </string-array>
+
+    <string-array name="busCompany">
+        <item>Mash Bus</item>
+        <item>Easy Coach</item>
+        <item>Eldoret Express</item>
+        <item>Tahmeed Coach</item>
+        <item>Simba Coach</item>
+        <item>Guardian Angel</item>
+        <item>Kampala Coach</item>
+        <item>Crown Bus</item>
+        <item>Horizon Coach</item>
+        <item>Modern Coast</item>
+    </string-array>
+</resources>
